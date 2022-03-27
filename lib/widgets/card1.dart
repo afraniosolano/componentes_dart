@@ -19,6 +19,16 @@ class CustomCardType1 extends StatelessWidget {
             title: Text("Soy un titulo"),
             subtitle: Text(
                 "Commodo mollit non laboris cupidatat ut laboris nisi occaecat velit dolor. Fugiat incididunt pariatur dolor mollit minim ipsum do elit commodo. Magna aliquip quis exercitation voluptate."),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(right: 5),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                TextButton(onPressed: () {}, child: const Text("Cancel")),
+                TextButton(onPressed: () {}, child: const Text("Ok"))
+              ],
+            ),
           )
         ],
       ),
