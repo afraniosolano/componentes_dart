@@ -6,5 +6,5 @@ export 'package:componentes_application/screens/home_screen.dart';
 export 'package:componentes_application/screens/avatar_screen.dart';
 export 'package:componentes_application/screens/animated_screen.dart';
 export 'package:componentes_application/screens/inputs_screen.dart';
-
 export 'package:componentes_application/screens/slider_screen.dart';
+export 'package:componentes_application/screens/listview_builder_screen.dart';
